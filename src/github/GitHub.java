@@ -9,7 +9,7 @@ public class GitHub {
         String cad2 = N.substring(16,17); //Pero hay que decir hasta el final más 1, 0 + 1 = 1, por eso que vaya de la posición 0 a la 1
         String cad3 = N.substring(25,26);
 
-        System.out.println("Hola, mis iniciales son: " + cad + cad1 + cad2 + cad3);
+        System.out.println("Hola,mi nombre y mis iniciales son: " + N + " / " + cad + cad1 + cad2 + cad3);
     }
 
 }
